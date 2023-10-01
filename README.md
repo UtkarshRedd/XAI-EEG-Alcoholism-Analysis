@@ -1,2 +1,5 @@
 # XAI-EEG-Alcoholism-Analysis
-This project was conducted to develop an architectural pipeline for extracting features from EEG and devising an Explainable Machine Learning model that can accurately capture signs of alcoholoism from EEG and visualize the significant brain regions potentially showing signs of alcoholism.
+This exploratory project was conducted to develop an architectural pipeline for extracting features from EEG and devising an Explainable Machine Learning model that can accurately capture signs of alcoholoism from EEG and visualize the significant brain regions potentially showing signs of alcoholism.
+
+The dataset used for this study is avaiable at this link - https://archive.ics.uci.edu/dataset/121/eeg+database 
+A sample of the dataset was used for this study for exploratory purposes. Features were extracted using various Fractal Dimensional and entropy measures. Mulitiple machine learning models were evaluated using the PyCaret python library. Different types of visualizations like Correlation Heatmaps and Topographic Brain Plots were employed to enhance the interpretability of the classification.
